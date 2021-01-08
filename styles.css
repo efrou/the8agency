@@ -76,6 +76,7 @@ src: url(fonts/ProximaNova-Regular.otf);
 
 .content{
     display: flex;
+    flex-wrap: wrap;
     margin: 86px 155px 93px 155px;
 }
 
@@ -88,6 +89,7 @@ src: url(fonts/ProximaNova-Regular.otf);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 39px;
 }
 
 .logo-cluster{
@@ -114,6 +116,56 @@ src: url(fonts/ProximaNova-Regular.otf);
     height: 15px;
 }
 
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+
+.description-text{
+    font-family: 'ProximaNovaRegular';
+    font-size: 16px;
+    color: #405457;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.people{
+    margin: 50px 0;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.person-name{
+    margin-left: 29px;
+}
+
+.name{
+    font-family: 'SharpSansBold';
+    font-size: 20px;
+    color: #02363D;
+    line-height: 26px;
+}
+
+.job{
+    font-family: 'SharpSansBold';
+    font-size: 16px;
+    color: #021800;
+    line-height: 26px;
+}
+
+.avatar{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+
 @media (max-width: 600px) {
 
     .header{
@@ -130,5 +182,17 @@ src: url(fonts/ProximaNova-Regular.otf);
         font-size: 12px;
         line-height: 20px;
         padding: 20px 20px 0 20px;
+    }
+
+    .content{
+        margin: 20px;
+    }
+
+    .content-column-left{
+        width: auto;
+    }
+
+    .logos-top{
+        margin-bottom: 20px;
     }
 }
