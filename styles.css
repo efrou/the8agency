@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: 'SharpSansBold';
+    src: url(fonts/Sharp\ Sans\ No1-Bold.otf);
+    font-weight: bold;
+  }
+
+@font-face {
+font-family: 'ProximaNovaRegular';
+src: url(fonts/ProximaNova-Regular.otf);
+}
+
+ 
+
+*{
+    margin: 0;
+}
+
+
+.header{
+    background-image: url("img/bg-header.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tag-orange{
+    background: #EE6723;
+    width: 65px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'SharpSansBold';
+    font-size: 13px;
+    color: white;
+    letter-spacing: 0.93px;
+    line-height: 15px;
+    padding: 0px 10px;
+    border-radius: 5%;
+    margin-bottom: 26px;
+}
+
+.title-header{
+    text-align: center;
+    font-family: 'SharpSansBold';
+    font-size: 40px;
+    color: #02363D;
+    line-height: 52px;
+    padding:0 10px;
+    
+}
+
+.subtitle-header{
+    font-size: 21px;
+    color: #00373E;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: 'SharpSansBold';
+}
+
+.content{
+    display: flex;
+    margin: 86px 155px 93px 155px;
+}
+
+.content-column-left{
+    width: 55%;
+}
+
+.logos-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-cluster{
+    height: 26px;
+}
+
+.logo-asobanca{
+    height: 29px;
+}
+
+.logo-ipbf{
+    height: 42px;
+}
+
+.logo-htelecom{
+    height: 24px;
+}
+
+.logo-ebanx{
+    height: 19px;
+}
+
+.logo-zendesk{
+    height: 15px;
+}
+
+@media (max-width: 600px) {
+
+    .header{
+        height: 300px;
+    }
+
+    .title-header{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+
+    .subtitle-header{
+        font-size: 12px;
+        line-height: 20px;
+        padding: 20px 20px 0 20px;
+    }
+}
