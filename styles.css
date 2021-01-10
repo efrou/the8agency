@@ -208,6 +208,7 @@ src: url(fonts/ProximaNova-Regular.otf);
     background: #02363D;
     margin-top: 35px;
     border: none;
+    cursor: pointer;
 
 }
 

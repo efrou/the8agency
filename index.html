@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="content-column-right">
-            <form onsubmit="save_localStorage" class="form-wrapper">
+            <form onsubmit="save_data()" class="form-wrapper">
                     <h2 class="form-title">¡Inscríbete y reserva tu lugar ahora!</h2>
                     <div class="form-group">
                         <label for="name" class="control-label">Nombre</label>
@@ -94,7 +94,7 @@
                 
                     <div class="form-group">
                         <label for="email" class="control-label">Correo electrónico del trabajo</label>
-                        <input type="email" name="email" id="email" class="form-control" />
+                        <input type="email" name="email" required id="email" class="form-control" />
                     </div>
                     
                     <div class="form-group">
@@ -342,7 +342,7 @@
 
                     <div class="form-group">
                         <label for="phone-number" class="control-label">Número de teléfono</label>
-                        <input name="phone-number" type="number" required id="phone-number" class="form-control" />
+                        <input name="phone-number" type="text" required id="phone-number" class="form-control" />
                     </div>
 
                     <div class="form-group">
@@ -350,7 +350,7 @@
                         <input name="job" type="text" required id="job" class="form-control" />
                     </div>
 
-                    <button type="submit" class="sign-up-button"><p class="sign-up-text">Inscríbete</p></button>
+                    <button type="submit" class="sign-up-button" value="save" id="save"><p class="sign-up-text">Inscríbete</p></button>
                    
             </form>
         </div>
