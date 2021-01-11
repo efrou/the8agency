@@ -1,5 +1,4 @@
 //Save data in LocalStorage
-new WOW().init();
 function save_data(){
 	
     let inputName = document.getElementById("name");
