@@ -1,5 +1,5 @@
 //Save data in LocalStorage
-
+new WOW().init();
 function save_data(){
 	
     let inputName = document.getElementById("name");
@@ -29,3 +29,4 @@ function save_data(){
     localStorage.setItem("Guests", guests_serialized); 	
     
     }
+

@@ -223,6 +223,37 @@ select {
     padding: 16.5px; 
  }
 
+ /*select css*/
+ .select-css {
+    display: block;
+    font-size: 16px;
+    font-family: 'ProximaNovaRegular';
+    color: #68737D;
+    line-height: 20px;
+    padding: .4em 1.4em .3em .8em;
+    max-width: 100%;
+    -webkit-appearance: none; 
+    background-image: url(img/keyboard_arrow_down-black-18dp.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+   }
+   .select-css::-ms-expand {
+    display: none;
+   }
+
+   .select-css:hover {
+    border-color: #888;
+   }
+ 
+   .select-css option {
+    font-weight:normal;
+   }
+
+   
+ /*fin select css*/
+
+
 .footer {
     background: #F8F9F9;
 }
@@ -255,6 +286,9 @@ ul {
     align-items: center;
 }
 
+.list-inline-item:hover{
+    background-color: #02363D;
+}
 .fab{
     color: white;
 }
